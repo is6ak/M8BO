@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Phonk';
+    src: url('./assets/phonk_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-title: 'Phonk', sans-serif;
+    --font-txt: "Montserrat", sans-serif;
+}
+
+.pokemon {
+    min-height: 500px;
+    width: 500px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 12px;
+    color: white;
+    font-family: var(--font-txt);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-family: var(--font-txt);
+    width: 220px;
+}
+
+.searchBar button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: var(--font-txt);
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.loading__title {
+    font-family: var(--font-txt);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.loading__gif {
+    height: 150px;
+    width: auto;
+}
+
+.pokemonReceived {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 38px;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin: 0 0 10px 0;
+    font-family: var(--font-txt);
+    text-transform: capitalize;
+}
+
+.pokemonPicture {
+    height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.description {
+    max-width: 80%;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.movesSection {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.movesSection h3 {
+    font-family: var(--font-txt);
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.movesList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 180px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.moveItem {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.stab {
+    background-color: #ffe600;
+    color: black;
+}

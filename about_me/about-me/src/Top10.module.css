@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Phonk';
+    src: url('./assets/phonk_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-title: 'Phonk', sans-serif;
+}
+
+.top10{
+    background: purple;
+    width: 800px;
+    border-radius: 12px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.list{
+    list-style: none;
+}
+
+.top10__title {
+    font-family: var(--font-title);
+    justify-self: center;
+}

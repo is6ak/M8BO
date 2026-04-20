@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Phonk';
+    src: url('./assets/phonk_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-title: 'Phonk', sans-serif;
+    --font-txt: "Montserrat", sans-serif;
+}
+
+.book {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bookNumber {
+    font-family: var(--font-title);
+}
+
+.bookContainer {
+    font-family: var(--font-txt);
+}

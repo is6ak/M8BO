@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Phonk';
+    src: url('./assets/phonk_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-title: 'Phonk', sans-serif;
+    --font-txt: "Montserrat", sans-serif;
+}
+
+.cookieSection {
+    background-color: blue;
+    width: 450px;
+    height: 370px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    font-family: var(--font-txt);
+    color: white;
+    margin-top: 10px;
+}
+
+.cookieSection__title {
+    display: flex;
+    justify-self: center;
+    font-size: 35px;
+}
+
+.cookie{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-self: center;
+}
+
+.cookieImg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.score {
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+}
+
+.grandmas {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5%;
+}
+
+.grandmasTxt {
+    border: 0px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}

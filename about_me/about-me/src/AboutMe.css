@@ -1,0 +1,38 @@
+:root { /*color palettes from https://coolors.co/palettes/popular/portfolio*/
+    --deep-twilight: #03045eff;
+    --bright-teal-blue: #0077b6ff;
+    --turquoise-surf: #00b4d8ff;
+    --frosted-blue: #90e0efff;
+    --light-cyan: #caf0f8ff;
+    --fish-background: #8FA8D6; /*zelf toegevoegd*/
+}
+
+.article {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div {
+    background-color: var(--fish-background);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.img {
+    height: auto;
+    width: 500px;
+}
+
+.paragraph {
+    font-size: 19px;
+    max-width: 700px;
+}
